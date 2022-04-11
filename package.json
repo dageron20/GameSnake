@@ -1,0 +1,25 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "description": "## Подготовка к заупску 1. Убедиться что стоит [node.js](https://nodejs.org/en/) 2. Выполнить команду    ```bash    npm install    ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:scss": "gulp styles",
+    "watch": "gulp watch"
+  },
+  "keywords": [],
+  "author": "Kirilyuk Denis",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.9"
+  },
+  "dependencies": {
+    "gulp-concat": "^2.6.1"
+  }
+}
